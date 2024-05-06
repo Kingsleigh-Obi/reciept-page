@@ -1,0 +1,329 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 18%, 87%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+body p
+{
+    font-size: 16px;
+}
+
+
+
+.container
+{
+    width: 50%;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.omelette
+{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2
+{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.prep-time
+{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.prep-time h3
+{
+    padding-left: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.prep-time li
+{
+    margin-bottom: 10px;
+    color: rgb(96,82,79);
+}
+
+span
+{
+    font-weight: 400;
+    color: rgb(96,82,79);
+}
+.compo
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.compo h2
+{
+    color: hsl(14, 45%, 36%);
+}
+
+.description
+{
+    font-weight: 400;
+    color: rgb(166, 165, 166);
+    
+}
+
+img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ingredients li
+{
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+.instructions li
+{
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+.instructions span
+{
+    color: rgb(96,82,79);
+}
+
+
+.numeral
+{
+    color: hsl(14, 45%, 36%);
+}
+
+.order
+{
+    color:  rgb(96,82,79);
+}
+.order li::marker
+{
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition
+{
+    color: rgb(96,82,79);
+}
+.cell
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgb(96,82,79);
+}
+
+.cell p
+{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin-top: -5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+
+.attribution 
+{ 
+    font-size: 11px; text-align: center; 
+    
+
+}
+
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media(max-width: 414px)
+{
+    body
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(30, 18%, 87%);
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        flex-direction: column;
+    }
+
+    body p
+    {
+        font-size: 16px;
+    }
+
+
+
+    .container
+    {
+        width: 100%;
+        border-radius: 10px;
+        background-color: hsl(0, 0%, 100%);
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+
+    .omelette
+    {
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2
+    {
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .prep-time
+    {
+        background-color: hsl(330, 100%, 98%);
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+    }
+
+    .prep-time h3
+    {
+        padding-left: 20px;
+        color: hsl(332, 51%, 32%);
+    }
+
+    .prep-time li
+    {
+        margin-bottom: 10px;
+        color: rgb(96,82,79);
+    }
+
+    span
+    {
+        font-weight: 400;
+        color: rgb(96,82,79);
+    }
+    .compo
+    {
+        width: 90%;
+        
+    }
+
+    .food-pic
+    {
+        width: 100%;
+    }
+
+    .compo h2
+    {
+        color: hsl(14, 45%, 36%);
+    }
+
+    .description
+    {
+        font-weight: 400;
+        color: rgb(166, 165, 166);
+        
+    }
+
+    img
+    {
+        border-radius: 0;
+    }
+
+    .ingredients li
+    {
+        margin-bottom: 10px;
+        margin-left: -10px;
+    }
+
+    .instructions li
+    {
+        margin-bottom: 10px;
+        margin-left: -10px;
+    }
+
+    .instructions span
+    {
+        color: rgb(96,82,79);
+    }
+
+
+    .numeral
+    {
+        color: hsl(14, 45%, 36%);
+    }
+
+    .order
+    {
+        color:  rgb(96,82,79);
+    }
+    .order li::marker
+    {
+        color: hsl(14, 45%, 36%);
+    }
+
+    .nutrition
+    {
+        color: rgb(96,82,79);
+    }
+    .cell
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: rgb(96,82,79);
+    }
+
+    .cell p
+    {
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        margin-top: -5px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }    
+
+    attribution 
+    { 
+        font-size: 11px; text-align: center; 
+        
+
+    }
+
+    .attribution a 
+    { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
+
+
